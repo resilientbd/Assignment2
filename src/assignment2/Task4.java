@@ -8,7 +8,6 @@ public class Task4 {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        
         int a,b,c;
         System.out.print("Enter first Value = ");
         a=input.nextInt();
