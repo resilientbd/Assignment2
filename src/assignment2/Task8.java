@@ -11,22 +11,29 @@ import java.util.Scanner;
  *
  * @author Admin
  */
-public class Task7 {
+public class Task8 {
+
     public static void main(String[] args) {
-        Scanner input =new Scanner (System.in);
-        int a,b;
+        Scanner input = new Scanner(System.in);
+        int a, b;
         System.out.print("Enter ftrst Value");
-        a=input.nextInt();
+        a = input.nextInt();
         System.out.println("Enter Second Value");
-        b=input.nextInt();
-        if (a>b){
+        b = input.nextInt();
+
+        if (a > b) {
             System.out.println("first Value is greater");
-            
+
         }
-        else {
-            System.out.println("first is not greater");
+
+        if (a < b) {
+
+            System.out.println("second is greater");
         }
-        
+        if (a == b) {
+
+            System.out.println("the numbers are equal");
+        }
     }
-    
+
 }
