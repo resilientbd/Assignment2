@@ -10,6 +10,7 @@ package assignment2;
  * @author Admin
  */
 public class Task2 {
+
     public static void main(String[] args) {
         System.out.println("1");
         System.out.println("2");
@@ -21,10 +22,7 @@ public class Task2 {
         System.out.println("8");
         System.out.println("9");
         System.out.println("10");
-    
-    
-    
+
     }
-   
-    
+
 }
