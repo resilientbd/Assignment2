@@ -9,6 +9,7 @@ package assignment2;
  *
  * @author Admin
  */
+import java.util.Scanner;
 public class class9 {
      public static void main(String[] args) {
 
