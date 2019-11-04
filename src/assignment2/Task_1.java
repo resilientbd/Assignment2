@@ -5,27 +5,19 @@
  */
 package assignment2;
 
-import java.util.Scanner;
-
 /**
  *
- * @author Shuvo
+ * @author RIYAD Patwary
  */
-public class Task5 {
+public class Task_1 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-    
-        Scanner s = new Scanner(System.in);
-        System.out.print("Enter Radius : ");
-        int r = s.nextInt();
+        // TODO code application logic here
         
-        double p = 3.1416;
-        double sum = p*r*r;
-        System.out.println("Area of the Circle is : "+sum);
-        
+        System.out.println("1\n2\n3\n4\n5\n6\n7\n8\n9\n10");
     }
     
 }
