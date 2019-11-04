@@ -17,7 +17,7 @@ public class Task10 {
         System.out. println("Enter the Number a: ");
         Scanner in = new Scanner(System.in);
         int a = in. nextInt();
-        if (a/2==0){
+        if (a%2==0){
              System.out. println(" a is even ");
         }
         else{
