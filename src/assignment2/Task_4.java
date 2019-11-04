@@ -4,14 +4,14 @@ import java.util.Scanner;
 
 public class Task_4 {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner myscan = new Scanner(System.in);
         
         int a,b,c,d,e,f;
         
         System.out.print("Enter 1st Number = ");
-        a = input.nextInt();
+        a = myscan.nextInt();
         System.out.print("Enter 2nd Number = ");
-        b = input.nextInt();
+        b = myscan.nextInt();
         c = a+b;
         d = a*b;
         e = a-b;
